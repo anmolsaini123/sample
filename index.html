@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tradewood | Premium Sneakers</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800;900&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Main Container -->
+    <div class="main-wrapper">
+        
+        <!-- Navigation -->
+        <header class="navbar">
+            <div class="logo">Tradewood<span>.</span></div>
+            
+            <nav class="nav-links" id="navLinks">
+                <a href="#" class="active">EXCLUSIVE</a>
+                <a href="#">ACCESSORIES</a>
+                <a href="#">NEW ARRIVALS <span class="new-badge">New</span></a>
+                <a href="#">SHOWCASE</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="icon-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <button class="icon-btn cart-btn">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span class="cart-count">2</span>
+                </button>
+                <button class="icon-btn user-btn"><i class="fa-regular fa-user"></i></button>
+                <button class="menu-toggle" id="menuToggle"><i class="fa-solid fa-bars"></i></button>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <main class="hero">
+            
+            <!-- Left: Text Content -->
+            <div class="hero-text">
+                <div class="badge">🔥 70 Years of Craftsmanship</div>
+                
+                <h1 class="title">
+                    <span class="highlight">Best In Style</span><br>
+                    Collection<br>
+                    For You
+                </h1>
+
+                <p class="description">
+                    We craft the best, or so we say. Through 70 years of experience 
+                    in the industry, we bring you the ultimate footwear experience.
+                </p>
+
+                <div class="cta-group">
+                    <button class="btn-primary">Pre-order Now <i class="fa-solid fa-arrow-right"></i></button>
+                    <button class="btn-secondary"><i class="fa-solid fa-play"></i> Watch Video</button>
+                </div>
+
+                <!-- Features Section -->
+                <div class="features">
+                    <div class="feature-item">
+                        <div class="icon-box"><i class="fa-solid fa-feather"></i></div>
+                        <div>
+                            <p>Toe Comfort</p>
+                            <h4>Fast Running</h4>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="icon-box"><i class="fa-solid fa-bolt"></i></div>
+                        <div>
+                            <p>Energy Return</p>
+                            <h4>High Performance</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right: Image Slider -->
+            <div class="hero-visual">
+                <!-- Background Elements -->
+                <div class="dotted-circle"></div>
+                <div class="glow-bg"></div>
+                
+                <!-- Shoe Slider Container -->
+                <div class="slider-container">
+                    <!-- Shoe 1: Nike Red Transparent -->
+                    <div class="slide active">
+                        <img src="https://pngimg.com/uploads/running_shoes/running_shoes_PNG5814.png" alt="Nike Red" class="shoe-img">
+                    </div>
+                    <!-- Shoe 2: Nike Blue Transparent -->
+                    <div class="slide">
+                        <img src="https://pngimg.com/uploads/running_shoes/running_shoes_PNG5815.png" alt="Nike Blue" class="shoe-img">
+                    </div>
+                    <!-- Shoe 3: Nike Black Transparent -->
+                    <div class="slide">
+                        <img src="https://pngimg.com/uploads/running_shoes/running_shoes_PNG5819.png" alt="Nike green" class="shoe-img">
+                    </div>
+                </div>
+
+                <!-- Floating Badge -->
+                <div class="floating-badge">
+                    <div class="progress-circle">
+                        <svg viewBox="0 0 36 36">
+                            <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                            <path class="circle-fill" stroke-dasharray="58, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                        </svg>
+                        <span>58%</span>
+                    </div>
+                    <div class="badge-text">
+                        <p>Daily Workout</p>
+                        <h4>Active Goal</h4>
+                    </div>
+                </div>
+
+                <!-- Pagination Dots -->
+                <div class="slider-dots">
+                    <span class="dot active" data-index="0"></span>
+                    <span class="dot" data-index="1"></span>
+                    <span class="dot" data-index="2"></span>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
