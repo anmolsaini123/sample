@@ -488,9 +488,10 @@ body {
     .slide.active { transform: scale(1) rotate(-10deg); }
     
     .floating-badge {
-        bottom: 10px;
+        top: 10px;
         right: 10px;
         padding: 10px 15px;
+        height:fit-content;
     }
     .progress-circle { width: 40px; height: 40px; }
 }
